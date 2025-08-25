@@ -55,33 +55,37 @@ If using **Maven**, add this snippet:
   <artifactId>io</artifactId>
   <version>9.0.0</version>
 </dependency>
-
+```
+---
 
 ⚙️ Setup
 1. Clone the repo
 
+    ```
     git clone https://github.com/CHILL-Divyanshu/CineToPDF
-    cd latest-movies-to-pdf
-
+    cd CineToPDF
+    ```
 
 2. Add your OMDB API key
 
     Create a file named config.properties in the project root:
-        OMDB_API_KEY=your_api_key_here
-
+        ```OMDB_API_KEY=your_api_key_here```
     (⚠️ This file is ignored in .gitignore for safety. Use config.example.properties as a reference.)
-
 3. Build & Run
 
+    
+    ```
     javac -cp "libs/*" src/com/yourpackage/*.java
     java -cp "libs/*:src" com.yourpackage.LatestMoviesToPdf
-
+    ```
+---
 🚀 Usage
 
->    Run the program.
->    Enter your desired movie name(s).
->    The program will fetch details & posters from OMDB.
->    PDF file (LatestMovies.pdf) will be generated in the project directory.
+> 1.Run the program.
+> 2.Enter your desired movie name(s).
+> 3.The program will fetch details & posters from OMDB.
+> 4.PDF file (LatestMovies.pdf) will be generated in the project directory.
+
 
 Example output:
 
@@ -101,13 +105,13 @@ Example output:
 🔑 Configuration
 
     OMDB API Key → Required. Get it from OMDB API.
-
     Store it in config.properties as shown above.
-
+---
 📜 License
 
 This project is licensed under the MIT License – free to use, modify, and distribute with attribution.
 
+---
 🙌 Credits
 
     iText Core 9 – PDF generation

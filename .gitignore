@@ -1,0 +1,12 @@
+# Ignore config files
+*.env
+config.properties
+
+# Ignore build/output
+/target/
+*.class
+
+# Ignore IDE junk
+.idea/
+.vscode/
+*.iml

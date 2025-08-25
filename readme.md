@@ -60,7 +60,7 @@ If using **Maven**, add this snippet:
 ⚙️ Setup
 1. Clone the repo
 
-    git clone https://github.com/your-username/latest-movies-to-pdf.git
+    git clone https://github.com/CHILL-Divyanshu/CineToPDF
     cd latest-movies-to-pdf
 
 

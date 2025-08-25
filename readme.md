@@ -82,15 +82,20 @@ If using **Maven**, add this snippet:
 🚀 Usage
 
 > 1.Run the program.
+
 > 2.Enter your desired movie name(s).
+
 > 3.The program will fetch details & posters from OMDB.
+
 > 4.PDF file (LatestMovies.pdf) will be generated in the project directory.
 
 
 Example output:
 
 >   🎥 Movie posters
+
 >   📊 Rating scale table
+
 >   ✍ Signature footer
 
 📁 Repository Structure
